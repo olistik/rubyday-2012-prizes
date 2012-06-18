@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative 'lib/rankings'
+require 'json'
+require 'pp'
+
+attendees = File.read('scores.txt').lines.map {|line| JSON.parse line}
+rankings = Rankings.new(attendees).value
+
+pp rankings

@@ -1,0 +1,1 @@
+{"email":"maurizio.demagnis@gmail.com","scores":{"stackoverflow":99,"coderwall":5,"twitter":53,"ml":125}}
