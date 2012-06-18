@@ -15,5 +15,9 @@ What we did
 
 * Retrieved the attendees list (175 people) and iterated a random extraction within an IRB session:
 
+```bash
 $ irb
-irb(main):001:0> (rand * 175).round
+```
+```ruby
+(rand * 175).round
+```
